@@ -1,5 +1,7 @@
 $(call inherit-product, device/samsung/jfltevzw/full_jfltevzw.mk)
 
+TARGET_CUSTOM_RELEASETOOL := $(ANDROID_BUILD_TOP)/device/samsung/jfltevzw/tools/squisher
+
 # Release name
 PRODUCT_RELEASE_NAME := jfltevzw
 
