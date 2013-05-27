@@ -1,5 +1,6 @@
 $(call inherit-product, device/samsung/jfltevzw/full_jfltevzw.mk)
 
+# LOKI Tool
 TARGET_CUSTOM_RELEASETOOL := $(ANDROID_BUILD_TOP)/device/samsung/jfltevzw/tools/squisher
 
 # Release name
@@ -7,12 +8,10 @@ PRODUCT_RELEASE_NAME := jfltevzw
 
 # Inherit some common Slim stuff.
 $(call inherit-product, vendor/slim/config/cdma.mk)
+$(call inherit-product, vendor/slim/config/common_full_phone.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
-
-# Inherit some common Slim stuff.
-$(call inherit-product, vendor/slim/config/common_full_phone.mk)
 
 # Inherit device settings
 $(call inherit-product, vendor/slim/config/common_sgs.mk)
