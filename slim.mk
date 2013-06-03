@@ -1,8 +1,5 @@
 $(call inherit-product, device/samsung/jfltevzw/full_jfltevzw.mk)
 
-# LOKI Tool
-TARGET_CUSTOM_RELEASETOOL := $(ANDROID_BUILD_TOP)/device/samsung/jfltevzw/tools/squisher
-
 # Release name
 PRODUCT_RELEASE_NAME := jfltevzw
 
@@ -28,6 +25,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=jfltevzw TARGET_DEVICE=jfltevzw BUI
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := slim_jfltevzw
 PRODUCT_DEVICE := jfltevzw
-PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SCH-I545
-PRODUCT_MANUFACTURER := Samsung

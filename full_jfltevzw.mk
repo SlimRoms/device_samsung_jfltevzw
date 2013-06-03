@@ -33,3 +33,10 @@ PRODUCT_DEVICE := jfltevzw
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := SCH-I545
+
+# loki
+PRODUCT_PACKAGES += \
+    loki_patch \
+    loki_flash \
+    loki.sh \
+    valid_bootloaders
