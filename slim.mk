@@ -10,9 +10,6 @@ $(call inherit-product, vendor/slim/config/common_full_phone.mk)
 # Enhanced NFC
 $(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
 
-# Inherit torch settings
-$(call inherit-product, vendor/slim/config/common_ledflash.mk)
-
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=jfltevzw TARGET_DEVICE=jfltevzw BUILD_FINGERPRINT="Verizon/jfltevzw/jfltevzw:4.3/JSS15J/I545VRUEMK2:user/release-keys" PRIVATE_BUILD_DESC="jfltevzw-user 4.4.3 JSS15J I545VRUEMK2 release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-verizon
