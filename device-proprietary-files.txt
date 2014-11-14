@@ -1,1 +1,22 @@
 # Add device specific blobs here
+
+# Camera
+lib/libvdis.so
+cameradata/M10MO_SFW.bin
+cameradata/RS_M10MO_OL.bin
+cameradata/RS_M10MO_OS.bin
+cameradata/RS_M10MO_SL.bin
+cameradata/RS_M10MO_SS.bin
+
+# Q6 firmware
+etc/firmware/q6.b00
+etc/firmware/q6.b01
+etc/firmware/q6.b03
+etc/firmware/q6.b04
+etc/firmware/q6.b05
+etc/firmware/q6.b06
+etc/firmware/q6.mdt
+
+# Radio
+lib/libsec-ril.so
+lib/libril.so
